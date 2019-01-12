@@ -1,0 +1,38 @@
+/* Testxand Array lists */
+
+.text_login_message_info {
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size:16px;
+    color: #1B5E20;
+    text-align: center;
+}
+
+.text_profile_basic_items_header, .text_profile_basic_items_content {
+    width: auto;
+    height: 20px;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 10px;
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size:12px;
+    color: #1B5E20;
+    text-align: left;
+    cursor: pointer;
+}
+
+.profile_user_basic_table_td_rank_header_message_p {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size:12px;
+    font-weight: bold;
+    color: #1B5E20;
+    text-align: center;
+}

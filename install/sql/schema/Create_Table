@@ -1,0 +1,30 @@
+############################################################################
+###                         SQL CREATE TABLE                             ###
+############################################################################
+
+
+CREATE TABLE IF NOT EXISTS user_
+(
+  Phone VARCHAR (20) NOT NULL DEFAULT '' ,
+  Name_ VARCHAR (50) NOT NULL DEFAULT '' ,
+  Birthdate DATE ,
+  Address Text NOT NULL DEFAULT '' ,
+  PRIMARY KEY(Phone)
+  )    ENGINE=MyISAM DEFAULT CHARACTER SET 'utf8' COLLATE 'utf8_slovak_ci';
+
+CREATE TABLE IF NOT EXISTS _monitor_agent
+(
+  id_monitor INTEGER(10) NOT NULL AUTO_INCREMENT,
+  id_list_monitor INTEGER(10) NOT NULL,
+  name_define_monitor VARCHAR(50) NOT NULL DEFAULT 'UNDEFINED',
+  value_user_agent_monitor VARCHAR(255) NOT NULL DEFAULT '',
+  session_active_monitor VARCHAR(255) NOT NULL DEFAULT '',
+  user_monitor VARCHAR(50) NOT NULL DEFAULT '',
+  ip_monitor VARCHAR(50) NOT NULL DEFAULT '',
+  port_monitor VARCHAR(25) NOT NULL DEFAULT '',
+  time_create_monitor INTEGER(50) NOT NULL DEFAULT 0,
+  msg_monitor VARCHAR(255) NOT NULL DEFAULT '',
+  comment_monitor VARCHAR(255) NOT NULL DEFAULT 'Comment!',
+  PRIMARY KEY(id_list_monitor),
+  UNIQUE(id_monitor)
+  )    ENGINE=MyISAM DEFAULT CHARACTER SET 'utf8' COLLATE 'utf8_slovak_ci';
