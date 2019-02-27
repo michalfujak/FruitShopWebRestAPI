@@ -22,10 +22,10 @@ $db_table_prefix = ""; // Prefix hack
 $php_name_page_root_pack_api = (defined('PHP_ANDROID_FRUIT_SHOP_API')) ? PHP_ANDROID_FRUIT_SHOP_API : './'; // Set alternative string... [ done! ]
 
 
-define("DB_LOCALHOST",    "sql17.dnsserver.eu");
-define("DB_USER",         "db127335x305");
-define("DB_PASSWORD",     "vxdrt4iin258dfgAS7");
-define("DB_DATABASE",     "db127335x305");
+define("DB_LOCALHOST",    "host");
+define("DB_USER",         "user");
+define("DB_PASSWORD",     "password");
+define("DB_DATABASE",     "db_name");
 define("DB_PORT",         3306);
 define("DB_SOCKET",       false);
 
